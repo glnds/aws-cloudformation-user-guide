@@ -75,7 +75,7 @@ A CRON expression specifying when AWS Backup initiates a backup job\.
 *Update requires*: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 `StartWindowMinutes`  <a name="cfn-backup-backupplan-backupruleresourcetype-startwindowminutes"></a>
-An optional value that specifies a period of time in minutes after a backup is scheduled before a job is canceled if it doesn't start successfully\.  
+An optional value that specifies a period of time in minutes after a backup is scheduled before a job is canceled if it doesn't start successfully\. The minimum value is 60 minutes. 
 *Required*: No  
 *Type*: Double  
 *Update requires*: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
